@@ -15,11 +15,11 @@ namespace PiCalcContract
 
         public async Task Subscribe(string queueName)
         {
-            busClient.SubscribeAsync<T>(async msg =>
+            await busClient.SubscribeAsync<T>(async msg =>
             {
                 await HandleMessage(msg);
                 return new Ack();
-            }).Wait();
+            });
         }
 
         protected abstract Task HandleMessage(T message);
