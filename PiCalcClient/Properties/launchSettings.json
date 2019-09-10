@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PiCalcClient": {
+      "commandName": "Project",
+      "commandLineArgs": "/r /p 3 /n 10"
+    }
+  }
+}

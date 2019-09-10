@@ -1,0 +1,8 @@
+﻿{
+	"Username": "guest",
+	"Password": "guest",
+	"VirtualHost": "/",
+	"Port": 5672,
+	"Hostnames": [ "localhost" ],
+	"PublishConfirmTimeout": "00:00:10"
+}
